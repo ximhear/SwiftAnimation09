@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC11488F29DB5050009DE206 /* PourParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = EC11488E29DB5050009DE206 /* PourParticle.sks */; };
+		EC11489129DB51B7009DE206 /* PourSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11489029DB51B7009DE206 /* PourSceneView.swift */; };
 		EC9F774E29DB36B70025EAFE /* SwiftUIAnimation09App.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9F774D29DB36B70025EAFE /* SwiftUIAnimation09App.swift */; };
 		EC9F775029DB36B70025EAFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9F774F29DB36B70025EAFE /* ContentView.swift */; };
 		EC9F775229DB36B80025EAFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F775129DB36B80025EAFE /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC11488E29DB5050009DE206 /* PourParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PourParticle.sks; sourceTree = "<group>"; };
+		EC11489029DB51B7009DE206 /* PourSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PourSceneView.swift; sourceTree = "<group>"; };
 		EC9F774A29DB36B70025EAFE /* SwiftUIAnimation09.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimation09.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9F774D29DB36B70025EAFE /* SwiftUIAnimation09App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimation09App.swift; sourceTree = "<group>"; };
 		EC9F774F29DB36B70025EAFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 			children = (
 				EC9F774D29DB36B70025EAFE /* SwiftUIAnimation09App.swift */,
 				EC9F774F29DB36B70025EAFE /* ContentView.swift */,
+				EC11488E29DB5050009DE206 /* PourParticle.sks */,
+				EC11489029DB51B7009DE206 /* PourSceneView.swift */,
 				EC9F775D29DB39490025EAFE /* WaveShape.swift */,
 				EC9F775B29DB37B30025EAFE /* PourAnimationView.swift */,
 				EC9F775129DB36B80025EAFE /* Assets.xcassets */,
@@ -131,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC11488F29DB5050009DE206 /* PourParticle.sks in Resources */,
 				EC9F775529DB36B80025EAFE /* Preview Assets.xcassets in Resources */,
 				EC9F775229DB36B80025EAFE /* Assets.xcassets in Resources */,
 			);
@@ -147,6 +154,7 @@
 				EC9F775029DB36B70025EAFE /* ContentView.swift in Sources */,
 				EC9F775E29DB39490025EAFE /* WaveShape.swift in Sources */,
 				EC9F774E29DB36B70025EAFE /* SwiftUIAnimation09App.swift in Sources */,
+				EC11489129DB51B7009DE206 /* PourSceneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
