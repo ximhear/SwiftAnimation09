@@ -13,9 +13,14 @@ struct WaveShape: Shape {
     var frequency = 1.0
     var phase = 0.0
     
-    var animatableData: Double {
-        get { waveTop }
-        set { waveTop = newValue }
+    var animatableData: AnimatablePair<AnimatablePair<Double, Double>, AnimatablePair<Double, Double>> {
+        get { AnimatablePair(AnimatablePair(waveTop, amplitude), AnimatablePair(frequency, phase)) }
+        set {
+            waveTop = newValue.first.first
+            amplitude = newValue.first.second
+            frequency = newValue.second.first
+            phase = newValue.second.second
+        }
     }
     
     func path(in rect: CGRect) -> Path {
@@ -39,8 +44,7 @@ struct WaveShape: Shape {
 
 struct WaveShape_Previews: PreviewProvider {
     static var previews: some View {
-        WaveShape(waveTop: 200, amplitude: 15, frequency: 4, phase: 90)
+        WaveShape(waveTop: 200, amplitude: 15, frequency: 4, phase: 30)
             .fill(.green)
-            .offset(y: 200)
     }
 }
