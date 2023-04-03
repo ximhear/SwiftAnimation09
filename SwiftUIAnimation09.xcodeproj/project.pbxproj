@@ -11,6 +11,8 @@
 		EC9F775029DB36B70025EAFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9F774F29DB36B70025EAFE /* ContentView.swift */; };
 		EC9F775229DB36B80025EAFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F775129DB36B80025EAFE /* Assets.xcassets */; };
 		EC9F775529DB36B80025EAFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F775429DB36B80025EAFE /* Preview Assets.xcassets */; };
+		EC9F775C29DB37B30025EAFE /* PourAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9F775B29DB37B30025EAFE /* PourAnimationView.swift */; };
+		EC9F775E29DB39490025EAFE /* WaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9F775D29DB39490025EAFE /* WaveShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		EC9F774F29DB36B70025EAFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC9F775129DB36B80025EAFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC9F775429DB36B80025EAFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC9F775B29DB37B30025EAFE /* PourAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PourAnimationView.swift; sourceTree = "<group>"; };
+		EC9F775D29DB39490025EAFE /* WaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				EC9F774D29DB36B70025EAFE /* SwiftUIAnimation09App.swift */,
 				EC9F774F29DB36B70025EAFE /* ContentView.swift */,
+				EC9F775D29DB39490025EAFE /* WaveShape.swift */,
+				EC9F775B29DB37B30025EAFE /* PourAnimationView.swift */,
 				EC9F775129DB36B80025EAFE /* Assets.xcassets */,
 				EC9F775329DB36B80025EAFE /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9F775C29DB37B30025EAFE /* PourAnimationView.swift in Sources */,
 				EC9F775029DB36B70025EAFE /* ContentView.swift in Sources */,
+				EC9F775E29DB39490025EAFE /* WaveShape.swift in Sources */,
 				EC9F774E29DB36B70025EAFE /* SwiftUIAnimation09App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
